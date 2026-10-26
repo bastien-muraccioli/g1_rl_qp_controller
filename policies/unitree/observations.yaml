@@ -11,13 +11,13 @@ observations:
   - type: base_ang_vel
     parameters:
       history: 1
-      sensor: FloatingBase
+      sensor: Accelerometer
       scale: [1.0, 1.0, 1.0]
 
   - type: projected_gravity
     parameters:
       history: 1
-      sensor: FloatingBase
+      sensor: Accelerometer
       scale: [1.0, 1.0, 1.0]
 
   - type: command
